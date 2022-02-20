@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    
+    
+    <title>Faiz Feroz</title>
+</head>
+<body>
+    <head>
+        <nav>
+            <div class="logo">
+                <img src="Pics/fai.jpeg" alt="logo">
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                
+                <li><a href="contactme.html">Contact Me</a></li>
+            </ul>
+        </nav>
+    </head>
+
+    <main>
+            <!-- <div class="slidingpic">
+                
+                    <img src="Pics/fai.jpeg" alt="pic2">
+            </div> -->
+            <div class="punchline">
+               <div class="main">
+                   
+               </div>
+                
+                <div id="text"></div>
+                <script type="text/javascript">
+                    var i=0,text;
+                    text="Hey , i am Faiz !";
+            
+                    function typing(){
+                        if(i<text.length){
+                            document.getElementById("text").innerHTML+= text.charAt(i);
+                            i++;
+                            setTimeout(typing,70);
+                        }
+                    }   
+                    typing();
+                </script>
+                <br>
+                <p> I am a second year Mechanical Engineering student at RV College Of Engineering with  keen interest in:- </p>
+                <br>
+                <!-- <p> Programming ,Web Dev,ML Robotics</p>  -->
+               <div><span class="typing"></span></div>
+            </div>
+
+           
+    </main>
+
+    <div class="onlinepresence">
+        <a  href="https://github.com/FaizFeroz" target="_blank">
+            <div class="box">
+                <img  src="Pics/Github.png" alt="github">
+            </div>
+        </a>
+        <a href="https://in.linkedin.com/in/faiz-feroz-6b8b75211" target="_blank">
+            <div class="box">
+                <img  src="Pics/linkedin.png" alt="insta">
+            </div>
+        </a>
+        <a href="https://www.instagram.com/faiz_3976/" target="_blank">
+            <div class="box">
+                <img  src="Pics/Insta.png" alt="linkedin">
+            </div>
+        </a>
+        <a href="https://www.quora.com/profile/Faiz-Feroz-1" target="_blank">
+            <div class="box">
+                <img  src="Pics/Quora.png" alt="Quora">
+            </div>
+        </a>
+        
+    </div>
+    
+
+    <!-- <footer>
+        <p style="color: yellow;">This Website was made using only html,css and javascript</p>
+    </footer> -->
+
+    <script src="script.js"></script>
+</body>
+</html>
